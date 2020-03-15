@@ -47,6 +47,7 @@ header #logo {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    overflow: hidden;
 }
 
 #vg {
@@ -104,11 +105,14 @@ header #logo {
 /* HOVER copertina*/
 .copertina:hover  h2::before, .copertina:hover  h2::after {
     opacity: 1;
+    transition-duration: 0.5s;
 }
 .copertina:hover  .opaco {
     background-color: rgba(0, 0, 0, 0.5);
+    transition-duration: 0.5s;
 }
 .copertina:hover  h2 {
     font-size: 35px;
+    transition-duration: 0.5s;
 }
 /* HOVER copertina */

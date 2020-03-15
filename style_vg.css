@@ -143,10 +143,12 @@ header #logo {
 
 .prodotto:hover .opaco {
     background-color: rgba(0, 0, 0, 0.5);
+    transition-duration: 1s;
 }
 
 .prodotto:hover .cart{
     opacity: 1;
+    transition-duration: 1s;
 }
 
 .sconto {
