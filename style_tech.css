@@ -49,6 +49,7 @@ header #logo {
     display: inline-block;
     width: 250px;
     height: 250px;
+    background-size: cover;
     background-position: center;
     border: 3px solid #4267b2;
     border-radius: 5px;
@@ -59,37 +60,27 @@ header #logo {
 
 #prodotto1, #p9 {
     background-image: url("img/tech/iphone.jpg");
-    background-size: cover;
-    background-position: center;
 }
 #prodotto2, #p10 {
     background-image: url("img/tech/bose.jpg");
-    background-size: cover;
-    background-position: center;
 }
 #prodotto3, #p11 {
     background-image: url("img/tech/pc.jpg");
-    background-size: cover;
 }
 #prodotto4, #p12 {
     background-image: url("img/tech/switch.jpg");
-    background-size: cover;
 }
 #prodotto5, #p13 {
     background-image: url("img/tech/xbox.jpg");
-    background-size: cover;
 }
 #prodotto6, #p14 {
     background-image: url("img/tech/mouse.jpg");
-    background-size: cover;
 }
 #p7, #p15 {
     background-image: url("img/tech/airpod.jpg");
-    background-size: cover;
 }
 #p8, #p16 {
     background-image: url("img/tech/apple_watch.jpg");
-    background-size: cover;
 }
 
 .opaco {
